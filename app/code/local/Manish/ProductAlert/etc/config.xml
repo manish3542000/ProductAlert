@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+* @author Manish Mehta
+* @package Manish_ProductAlert
+*/
+-->
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Manish_ProductAlert>
+            <version>1.0.0.0</version>
+        </<Manish_ProductAlert>
+    </modules>
+    <global>
+        <models>
+            <productalert>
+                <rewrite>
+                    <observer>Manish_ProductAlert_Model_Observer</observer>
+                </rewrite>
+            </productalert>
+        </models>
+    </global>
+</config>

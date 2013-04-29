@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Manish_ProductAlert>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Manish_ProductAlert>
+    </modules>
+</config>
